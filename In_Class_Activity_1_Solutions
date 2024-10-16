@@ -28,3 +28,8 @@ z = 2
 t = 15
 print((x * t) / (y / z))
 print('Done')
+
+#Question 5
+#To solve this problem, I fixed the spelling of the variable "fruit" in the print statements on line 35. They are all missing the "i", which causes a syntax error because they are referencing a variable "frut" that doesn't exist.
+fruit = "kiwi"
+print(fruit, fruit, fruit)
