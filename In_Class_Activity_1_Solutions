@@ -17,7 +17,14 @@ print(x, y, z)
 #To solve this problem, I fixed the typo in line 20 that refers to the "multiplier" variable, but it leaves out the first "i". This fixes the syntax error that is caused from referencing an unknown variable.
 miles = 10
 multiplier = 1.609344
-km = miles * multplier
+km = miles * multiplier
 print(km)
 
 #Question 4
+#To solve this problem, I added an additional parenthesis to the end of the statement on line 29. In the original statement, there is an overarching parenthesis that is never closed, which causes the syntax error making the code unable to run.
+x = 1
+y = 10
+z = 2
+t = 15
+print((x * t) / (y / z))
+print('Done')
