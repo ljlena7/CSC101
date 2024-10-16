@@ -1,1 +1,7 @@
-
+#Question 1
+#Get rid of the y=0 statement. It overrules the original y=5 statement and makes it so the assignment on line 6 cannot be done because there is a runtime error for attempting to divide by 0
+x = 15
+y = 5
+z = 3
+k = x / y
+print(k)
