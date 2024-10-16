@@ -5,3 +5,11 @@ y = 5
 z = 3
 k = x / y
 print(k)
+
+#Question 2
+#To solve this error, I removed the indent on line 14. This caused a syntax error because the print statement should never be tabbed in.
+x = 10
+y = 20
+z = 30
+print(x, y, z)
+     
