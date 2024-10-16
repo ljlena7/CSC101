@@ -13,3 +13,11 @@ y = 20
 z = 30
 print(x, y, z)
      
+#Question 3
+#To solve this problem, I fixed the typo in line 20 that refers to the "multiplier" variable, but it leaves out the first "i". This fixes the syntax error that is caused from referencing an unknown variable.
+miles = 10
+multiplier = 1.609344
+km = miles * multplier
+print(km)
+
+#Question 4
