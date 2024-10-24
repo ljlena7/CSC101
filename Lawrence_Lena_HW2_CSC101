@@ -1,0 +1,38 @@
+# Question 1
+
+base = 10
+height = 4
+area = base*height*0.5
+print("The triangle has an area of " + str(area) + " cm")
+
+# Question 2
+
+fenceLength = 15
+gardenPerimeter = 2*50 + 2*80
+print("You need " + str(gardenPerimeter//15 + 1) + " fences to cover the whole garden.")
+
+# Question 3
+
+cents = 835
+dollars = cents // 100
+quarters = (cents % 100) // 25
+dimes = cents % 25 // 10
+left = cents % 25 % 10
+print(f"""Dollars: {dollars}
+Quarters: {quarters}
+Dimes: {dimes}
+Cents: {left}""")
+
+# Question 4
+
+print("One\n\tTwo\n\t\tThree")
+
+# Question 5
+
+name = input("What is your name: ")
+print(name + " is a common name.")
+
+# Question 6
+
+filePath = "c:\\Users\\Documents\\MyFile.txt"
+print(filePath)
